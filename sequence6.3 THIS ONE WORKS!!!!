@@ -1,0 +1,14 @@
+sequence = []
+
+def fancy_math(r):
+    a,b = 1,1
+    while len(sequence) in range(r):
+            a,b = b, b+a
+            sequence.append(a)
+            sequence.append(b)
+            if len(sequence) == r:
+                print (sequence)
+        
+fancy_math(50)
+
+        
